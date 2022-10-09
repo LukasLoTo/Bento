@@ -26,7 +26,7 @@
 
   /* Light Colors  */
   --accent: #57a0d9; /* Hover color */
-  --background: #0f140b; /* Background color */
+  --background: #282828; /* Background color */
   --cards: #e4e6e6; /* Cards color */
 
   /* Image background  */
@@ -39,13 +39,13 @@
 
 .darktheme {
   /* Dark Colors  */
-  --accent: #287d4a; /* Hover color */
-  --background: #19171a; /* Background color */
-  --cards: #161811; /* Cards color */
+  --accent: #fe8019; /* Hover color */
+  --background: #282828; /* Background color */
+  --cards: #d65d0e; /* Cards color */
 
   /* Fonts Color */
-  --fg: #718f5a; /* Foreground color */
-  --sfg: #4c643a; /* Secondary Foreground color */
+  --fg: #fabd2f; /* Foreground color */
+  --sfg: #d79921; /* Secondary Foreground color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -153,12 +153,14 @@ body {
   margin-top: 30px;
 }
 
+/*
 .weather {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+*/
 .clock {
   display: flex;
   align-items: center;
@@ -189,24 +191,28 @@ body {
   color: var(--fg);
 }
 
+/*
 .weatherIcon img {
   width: 70px;
   height: 70px;
 }
-
+*/
+/*
 .weatherValue p {
   font-size: var(--fg-secondary);
   font-weight: bolder;
   margin-left: 15px;
   color: var(--fg);
 }
+*/
 
+/*
 .weatherDescription p {
   font-size: var(--fg-secondary);
   margin-left: 15px;
   color: var(--fg);
 }
-
+*/
 .reduceGap {
   grid-gap: 2rem !important;
 }
